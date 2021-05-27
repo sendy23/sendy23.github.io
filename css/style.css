@@ -1,0 +1,30 @@
+        @font-face {
+            font-family: "Merriweather";
+            src: url(fonts/Merriweather/Merriweather-Bold.ttf);
+            font-weight: 300;
+        }
+
+        h1 {
+            color: #113113;
+            font-family: "Merriweather";
+        }
+
+        h2 {
+            color: #154B19;
+        }
+
+        h3 {
+            color: #256E2A;
+        }
+
+        p {
+            color: #113813;
+            font-size: 24px;
+        }
+
+        img {
+            width: 300px;
+            margin: 20px;
+        }
+        
+        
