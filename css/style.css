@@ -8,6 +8,7 @@
 
         body {
             text-align: center;
+            background-color: rgb(213, 240, 140);
         }
 
         h1 {
@@ -31,6 +32,12 @@
             font-size: 24px;
         }
 
+        .highlights {
+            font-style: italic;
+            color: #1e6823;
+            text-decoration: none;
+        }
+
         img {
             width: 300px;
             margin: 20px;
@@ -50,10 +57,12 @@
 
         table {
             text-align: center;
+            background-color: greenyellow;
         }
-        #first {
+        .mainWords {
             font-size: 50px;
             margin-bottom: 25px;
+            text-decoration: underline;
         }
 
         li {
