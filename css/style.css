@@ -1,70 +1,61 @@
-        @font-face {
-            font-family: "Merriweather";
-            src: url(fonts/Merriweather/Merriweather-Bold.ttf);
-            font-weight: 300;
-        }
+body {
+    text-align: center;
+}
 
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #D07EA7;
+}
 
-        body {
-            text-align: center;
-            background-color: rgb(213, 240, 140);
-        }
+table {
+    margin: 0px auto;
+    border: 1px solid #D07EA7;
+    border-collapse: collapse;
+}
 
-        h1 {
-            color: #153d18;
-            font-family: "Merriweather";
-            text-align: center;
-        }
+th, td {
+    border: 1px solid #D07EA7;
+    border-collapse: collapse;
+}
 
-        h2 {
-            color: #154B19;
-            font-family: Roboto;
-        }
+h3 {
+    color: #202124;
+    font-weight: 400;
+    position: relative;
+}
 
-        h3 {
-            color: #081809;
-            font-weight: 200;
-        }
+img {
+    padding: 18px;;
+    width: 650px;
+    height: 350px;
+}
 
-        p {
-            color: #113813;
-            font-size: 24px;
-        }
+hr {
+    border: 1px solid #D07EA7;
+    margin: 0 auto 16px;
+    width: 180px;
+}
 
-        .highlights {
-            font-style: italic;
-            color: #1e6823;
-            text-decoration: none;
-        }
+h2 {
+    font-weight: 400;
+}
 
-        img {
-            width: 300px;
-            margin: 20px;
-        }
-        
-        caption {
-            font-size: 24px;
-            font-weight: bold;
-            text-align: center;
-            color: #0c270e;
-            text-decoration: underline;
-        }
+.pictures {
+    height: 150px;
+    width: auto;
+}
 
-        td {
-            text-align: left;
-        }
+th {
+    font-weight: bold;
+    font-style: italic;
+}
 
-        table {
-            text-align: center;
-            background-color: greenyellow;
-        }
-        .mainWords {
-            font-size: 50px;
-            margin-bottom: 25px;
-            text-decoration: underline;
-        }
+.face {
+    margin: 40px 0 50px 0;
+}
 
-        li {
-            list-style-position: inside; 
-        }
+.map {
+    border: 1px solid #D07EA7;
+}
